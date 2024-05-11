@@ -1,0 +1,190 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+ 
+</head>
+
+<body>
+    <header class="bg-light border border-1 border-info-subtle">
+        <div class="d-flex justify-content-between navbar">
+            <h3 class="mb-5 ms-3 fw-bold fs-1 ">Blood donation</h3>
+            <div class="col-xl-5 mt-3 ">
+                <ul class="fa-ul ul-nav d-flex justify-content-center">
+                    <li class="ms-3"><span class="fa-li nav-li "><i class="fa-regular fa-bell ms-2  d-block mb-3"></i></span>
+                        <a class="text-decoration-none text-dark mt-5" href="...">Notifications</a>
+                    </li>
+                    <li class="ms-3"><span class="fa-li nav-li"><i class="fa-solid fa-house me-1  d-block mb-3"></i></span>
+                        <a class="text-decoration-none text-dark" href="index.html">Home</a>
+                    </li>
+                    <li class="ms-3"><span class="fa-li nav-li"><i class="fa-solid  fa-envelope-open-text fa-envelope  d-block mb-3"></i></span>
+                        <a class="text-decoration-none text-dark" href="request.html">Requests</a>
+                    </li>
+                    <li class="ms-3"><span class="fa-li nav-li"><i class="fa-solid fa-envelope  d-block mb-3"></i></span>
+                        <a class="text-decoration-none text-dark" href="...">Message</a>
+                    </li>
+
+                    <li class="ms-3"><span class="fa-li nav-li"><i class="fa-regular fa-user  d-block mb-3"></i></span>
+                        <a class="text-decoration-none text-dark" href="profile.html">Profile</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="d-flex justify-content-evenly mt-5 ms-5 ">
+            <div class="col-5">
+                <h4 class="text-center mb-4">Please answer the next questions :</h4>
+                <form method="post">
+                    <ol class="fw-bold list-unstyled ">
+                        <li class=" p-2 d-flex position-relative">
+                            <span class="badge bg-danger-subtle rounded-pill fs-6 text-black ">1</span>
+                            <div class="d-flex justify-content-between ms-2 ">
+                                <label for="chronic-disease" >Do you have any chronic-disease ? </label><br>
+                                <div class="d-flex position-absolute radioBox ">
+                                    <input type="radio" id="chronicdisease-quest" name="question1" value="yes1" >
+                                    <input type="radio" id="chronicdisease-quest" name="question1" value="no1"
+                                        class="ms-3">
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class=" p-2 d-flex position-relative">
+                            <span class="badge bg-danger-subtle rounded-pill fs-6 text-black ">2</span>
+                            <div class="d-flex justify-content-between ms-2 ">
+                                <label for="having-fever">Are you having any fever during the past 3 weeks ?</label><br>
+                                <div class="d-flex ms-5 position-absolute  radioBox ">
+                                    <input type="radio" id="havingFever-quest" name="question2" value="yes2">
+                                    <input type="radio" id="havingFever-quest" name="question2" value="no2"
+                                        class="ms-3">
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class=" p-2 d-flex position-relative">
+                            <span class="badge bg-danger-subtle rounded-pill fs-6 text-black ">3</span>
+                            <div class="d-flex justify-content-between ms-2">
+                                <label for="chronic-disease">Have you donated during the past 3 weeks ?</label><br>
+                                <div class="d-flex position-absolute radioBox ">
+                                    <input type="radio" id="lastDonate-quest" name="question3" value="yes3">
+                                    <input type="radio" id="lastDonate-quest" name="question3" value="no3"
+                                        class="ms-3">
+                                </div>
+
+                            </div>
+                        </li>
+                         <li class=" p-2 d-flex position-relative">
+                            <span class="badge bg-danger-subtle rounded-pill fs-6 text-black ">4</span>
+                            <div class="d-flex justify-content-between ms-2">
+                                <label for="chronic-disease">Are you taking any antibiotics ?</label><br>
+                                <div class="d-flex position-absolute radioBox ">
+                                    <input type="radio" id="antibiotics-quest" name="question4" value="yes4">
+                                    <input type="radio" id="antibiotics-quest" name="question4" value="no4"
+                                        class="ms-3">
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class=" p-2 d-flex position-relative">
+                            <span class="badge bg-danger-subtle rounded-pill fs-6 text-black ">5</span>
+                            <div class="d-flex justify-content-between ms-2">
+                                <label for="chronic-disease">For the past 72 hours ,have you take any medication ?</label><br>
+                                <div class="d-flex position-absolute radioBox ">
+                                    <input type="radio" id="medication-quest" name="question5" value="yes5">
+                                    <input type="radio" id="medication-quest" name="question5" value="no5"
+                                        class="ms-3">
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class=" p-2 d-flex position-relative">
+                            <span class="badge bg-danger-subtle rounded-pill fs-6 text-black ">6</span>
+                            <div class="d-flex justify-content-between ms-2">
+                                <label for="chronic-disease">Have you ever received insulin medication ?</label><br>
+                                <div class="d-flex position-absolute radioBox ">
+                                    <input type="radio" id="insulin-quest" name="question6" value="yes6">
+                                    <input type="radio" id="insulin-quest" name="question6" value="no6"
+                                        class="ms-3">
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class=" p-2 d-flex position-relative">
+                            <span class="badge bg-danger-subtle rounded-pill fs-6 text-black ">7</span>
+                            <div class="d-flex justify-content-between ms-2 ">
+                                <label for="chronic-disease">Are you under 18 years old ?</label><br>
+                                <div class="d-flex position-absolute radioBox ">
+                                    <input type="radio" id="old-quest" name="question7" value="yes7">
+                                    <input type="radio" id="old-quest" name="question7" value="no7"
+                                        class="ms-3">
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class=" p-2 d-flex position-relative">
+                            <span class="badge bg-danger-subtle rounded-pill fs-6 text-black ">8</span>
+                            <div class="d-flex justify-content-between ms-2">
+                                <label for="chronic-disease">Are you pregnant or breast ? <div class="text-danger d-inline">(only for female)</div></label><br>
+                                <div class="d-flex position-absolute radioBox ">
+                                    <input type="radio" id="pregnant-quest" name="question8" value="yes8">
+                                    <input type="radio" id="pregnant-quest" name="question8" value="no8"
+                                        class="ms-3">
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class=" p-2 d-flex position-relative">
+                            <span class="badge bg-danger-subtle rounded-pill fs-6 text-black ">9</span>
+                      
+                            <div class="d-flex  ms-2 ">
+                                <label for="chronic-disease">Do you weight least 45 Kg?</label><br>
+                                <div class="d-flex position-absolute radioBox ">
+                                    <input type="radio" id="weight-quest" name="question9" value="yes9">
+                                    <input type="radio" id="weight-quest" name="question9" value="no9"
+                                        class="ms-3">
+                                </div>
+
+                            </div>
+                        </li>
+                    </ol>
+                    <button type="submit" class="btn btn-secondary rounded-pill ms-5 btn-lg col-sm-4 ">Next</button>
+                </form>
+            </div>
+            <div class="col-5">
+                
+
+
+
+
+                <div><img src="images/checklist.png" alt="hospital-photo" class="w-75 ms-5 "></div>
+                
+
+            </div>
+        </div>
+    </section>
+    <script>
+        // Function to validate the form before submission
+        function validateForm() {
+            // Get all radio button groups
+            var radioGroups = document.querySelectorAll('[name^="question"]');
+            // Loop through each group
+            for (var i = 0; i < radioGroups.length; i++) {
+                // Check if any option is selected in each group
+                if (!radioGroups[i].checked) {
+                    // If not selected, show an alert and return false to prevent form submission
+                    alert("Please answer all questions.");
+                    return false;
+                }
+            }
+            // If all questions are answered, return true to allow form submission
+            return true;
+        }
+    </script>
+
+</body>
+
+</html>

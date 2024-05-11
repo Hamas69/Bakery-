@@ -1,0 +1,116 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <header>
+
+        <h3 class="mb-5 ms-3 fw-bold fs-1">Sign UP</h3>
+
+    </header>
+    <section>
+        <div class="sign-page">
+            <div class="form-div m-auto " >
+                <form method="post" >
+                    <div class="d-flex justify-content-evenly">
+                        <div class="col-4">
+                            <div class="row mb-3">
+                                <label for="inputName" class="col-sm-4 col-form-label">Name</label>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control border-secondary-subtle" id="inputName">
+                                </div>
+                            </div>
+                            <div class="row mb-3 ">
+                                <label for="inputpassword" class="col-sm-4 col-form-label " >
+                                    Password</label>
+                                <div class="col-sm-6">
+                                    <input type="password" class="form-control border-secondary-subtle"
+                                        id="inputpassword" minlength="6" maxlength="15">
+                                </div>
+                            </div>
+                            <div class="row mb-3 ">
+                                <label for="inputRepassword" class="col-sm-4 col-form-label ">Retype
+                                    Password</label>
+                                <div class="col-sm-6">
+                                    <input type="password" class="form-control border-secondary-subtle"
+                                        id="inputRepassword" minlength="6" maxlength="15">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputPhoneNum" class="col-sm-4 col-form-label">Phone Number</label>
+                                <div class="col-sm-6">
+                                    <input type="tel" class="form-control border-secondary-subtle" id="inputPhoneNum">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="row mb-3 ">
+                                <label for="inputEmail" class="col-sm-4 col-form-label">Email</label>
+                                <div class="col-sm-6">
+                                    <input type="email" class="form-control border-secondary-subtle" id="inputEmail">
+                                </div>
+                            </div>
+                            <div class="row mb-3 ">
+                                <label for="inputDate" class="col-sm-4 col-form-label">Date of Birth</label>
+                                <div class="col-sm-6">
+                                    <input type="date" value="2012-3-23" class="form-control border-secondary-subtle"
+                                        id="inputDate">
+                                </div>
+                            </div>
+                            <div class="row mb-3 ">
+                                <label for="inputNationalId" class="col-sm-4 col-form-label">National ID</label>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control border-secondary-subtle"
+                                        id="inputNationalId">
+                                </div>
+                            </div>
+                            <div class="row mb-3 ">
+                                <label for="inputAdress" class="col-sm-4 col-form-label">Address</label>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control border-secondary-subtle" id="inputAddress">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-around ms-5">
+                        <div class="ms-5 ">
+                            <fieldset class="mt-4">
+                                <legend class="ms-2  mt-3 text-success">Gender</legend>
+                                <input type="radio" id="male" name="gender" value="male"
+                                    class="form-check-input border-black gender">
+                                <label for="male">Male</label>
+                                <input type="radio" id="female" name="gender" value="female"
+                                    class="form-check-input ms-5 border-black gender">
+                                <label for="female">Female</label>
+                            </fieldset>
+                            <button type="submit" class="btn btn-lg rounded-pill signup mt-5 bg-secondary d-block" id="sign_up">Sign
+                                Up</button>
+
+                            <p class="m-auto mt-5 d-inline-block pointer-cursor">Already have account ?</p>
+                            <a class="text-danger border-0 fw-bold fs-5 ms-3  mt-3 text-decoration-none pointer-cursor"
+                                href="signin.html">Sign
+                                In</a>
+                        </div>
+                        <div class="ms-5">
+                            <img class="sign-up-photo" src="images/undraw_sign_up_n6im (1).svg" alt="photo-sign-up">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/register.js"></script>
+    <script src="js/route.js"></script>
+</body>
+
+</html>

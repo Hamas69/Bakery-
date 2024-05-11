@@ -1,0 +1,89 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <header class="bg-light border border-1 border-info-subtle">
+        <div class="d-flex justify-content-between navbar">
+            <h3 class="mb-5 ms-1 fw-bold fs-1 ">Your Request</h3>
+            <div class="col-xl-5 mt-3 ">
+                <ul class="fa-ul ul-nav d-flex">
+                    <li><span class="fa-li nav-li "><i class="fa-regular fa-bell ms-2"></i></span>
+                        <a class="text-decoration-none text-dark" href="...">Notifications</a>
+                    </li>
+                    <li><span class="fa-li nav-li"><i class="fa-solid fa-house me-1"></i></span>
+                        <a class="text-decoration-none text-dark" href="index.html">Home</a>
+                    </li>
+                    <li><span class="fa-li nav-li"><i class="fa-solid  fa-envelope-open-text fa-envelope"></i></span>
+                        <a class="text-decoration-none text-dark" href="request.html">Requests</a>
+                    </li>
+                    <li><span class="fa-li nav-li"><i class="fa-solid fa-clipboard"></i></span>
+                        <a class="text-decoration-none text-dark" href="...">History</a>
+                    </li>
+                    <li><span class="fa-li nav-li"><i class="fa-solid fa-envelope"></i></span>
+                        <a class="text-decoration-none text-dark" href="...">Message</a>
+                    </li>
+
+                    <li><span class="fa-li nav-li"><i class="fa-regular fa-user"></i></span>
+                        <a class="text-decoration-none text-dark" href="profile.html">Profile</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="d-flex justify-content-evenly mt-5 container-fluid">
+            <div class="col-3 ">
+                <img src="images/blood-donor-card.png" alt="hospital-photo" class="w-100">
+            </div>
+            <div class="col-4 border border-1 border-opacity-25 border-secondary-subtle bg-light py-5 fs-5 fw-bold">
+                <form>
+                    <label class="col-form-label d-block ms-3" for="PatientNumber">Patient Number:</label>
+                    <label class="col-form-label d-block ms-3" for="BloodType">Blood Type:</label>
+                    <label class="col-form-label d-block ms-3" for="Phone">Phone:</label>
+                    <label class="col-form-label d-block ms-3" for="TransparentID">Transparent ID:</label>
+                    <label class="col-form-label d-block ms-3" for="BrancheName">Branche Name:</label>
+                    <label class="col-form-label d-block ms-3" for="Status">Status:</label>
+
+                </form>
+            </div>
+            <div class="col-4 border border-1 border-opacity-25 border-secondary-subtle bg-light py-5 fs-5 fw-bold">
+                <form>
+                    <label class="col-form-label d-block ms-3" for="PatientNumber">Patient Number:</label>
+                    <label class="col-form-label d-block ms-3" for="BloodType">Blood Type:</label>
+                    <label class="col-form-label d-block ms-3" for="Phone">Phone:</label>
+                    <label class="col-form-label d-block ms-3" for="TransparentID">Transparent ID:</label>
+                    <label class="col-form-label d-block ms-3" for="BrancheName">Branche Name:</label>
+                    <label class="col-form-label d-block ms-3" for="Status">Status:</label>
+
+                </form>
+            </div>
+        </div>
+    </section>
+    <script>
+        // Wait for the DOM to be fully loaded
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get the 'Notifications' link element
+            var notificationsLink = document.querySelector('a[href="..."]');
+
+            // Add a click event listener to the 'Notifications' link
+            notificationsLink.addEventListener('click', function (event) {
+                // Prevent the default behavior of the link
+                event.preventDefault();
+
+                // Display an alert message
+                alert('You clicked on Notifications!');
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="bg-light border border-1 border-info-subtle">
+        <div class="d-flex justify-content-between navbar">
+            <h3 class="mb-5 ms-1 fw-bold fs-1 ">Donate</h3>
+            <div class="col-xl-5 mt-3 ">
+                <ul class="fa-ul ul-nav d-flex justify-content-center">
+                    <li class="ms-3"><span class="fa-li nav-li "><i class="fa-regular fa-bell ms-2  d-block mb-3"></i></span>
+                        <a class="text-decoration-none text-dark mt-5" href="...">Notifications</a>
+                    </li>
+                    <li class="ms-3"><span class="fa-li nav-li"><i class="fa-solid fa-house me-1  d-block mb-3"></i></span>
+                        <a class="text-decoration-none text-dark" href="index.html">Home</a>
+                    </li>
+                    <li class="ms-3"><span class="fa-li nav-li"><i class="fa-solid  fa-envelope-open-text fa-envelope  d-block mb-3"></i></span>
+                        <a class="text-decoration-none text-dark" href="request.html">Requests</a>
+                    </li>
+                    <li class="ms-3"><span class="fa-li nav-li"><i class="fa-solid fa-envelope  d-block mb-3"></i></span>
+                        <a class="text-decoration-none text-dark" href="...">Message</a>
+                    </li>
+
+                    <li class="ms-3"><span class="fa-li nav-li"><i class="fa-regular fa-user  d-block mb-3"></i></span>
+                        <a class="text-decoration-none text-dark" href="profile.html">Profile</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="py-2">
+        <div class="col-10 py-3 container-fluid d-flex justify-content-around">
+            <form id="donationForm" method="post" onsubmit="return validateForm()" class="mt-4">
+                <div class="row mb-2 ms-2 ">
+                    <label for="inputName" class="col-sm-4 col-form-label ">Name</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control border-secondary-subtle" id="inputName" required>
+                    </div>
+                </div>
+                <div class="row mb-2 ms-2">
+                    <label for="inputPhoneNum" class="col-sm-4 col-form-label">Phone Number</label>
+                    <div class="col-sm-6">
+                        <input type="tel" class="form-control border-secondary-subtle" id="inputPhoneNum" required>
+                    </div>
+                </div>
+                <div class="row mb-2 ms-2">
+                    <label for="inputLocation" class="col-sm-4 col-form-label">Location</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control border-secondary-subtle" id="inputLocation" required>
+                    </div>
+                </div>
+                <h2 class="text-center">Blood Group</h2>
+                <div class="d-flex justify-content-around mt-3">
+                    <div><button type="button" onclick="selectBloodGroup('O+')"
+                            class="btn btn-light border border-1 border-secondary-subtle text-danger fw-bold fs-5 me-2">O+</button>
+                    </div>
+                    <div><button type="button" onclick="selectBloodGroup('O-')"
+                            class="btn btn-light border border-1 border-secondary-subtle text-danger fw-bold fs-5 me-2">O-</button>
+                    </div>
+                    <div><button type="button" onclick="selectBloodGroup('A+')"
+                            class="btn btn-light border border-1 border-secondary-subtle text-danger fw-bold fs-5 me-2">A+</button>
+                    </div>
+                    <div><button type="button" onclick="selectBloodGroup('A-')"
+                            class="btn btn-light border border-1 border-secondary-subtle text-danger fw-bold fs-5 me-2">A-</button>
+                    </div>
+                    <div><button type="button" onclick="selectBloodGroup('B+')"
+                            class="btn btn-light border border-1 border-secondary-subtle text-danger fw-bold fs-5 me-2">B+</button>
+                    </div>
+                    <div><button type="button" onclick="selectBloodGroup('B-')"
+                            class="btn btn-light border border-1 border-secondary-subtle text-danger fw-bold fs-5 me-2">B-</button>
+                    </div>
+                    <div><button type="button" onclick="selectBloodGroup('AB+')"
+                            class="btn btn-light border border-1 border-secondary-subtle text-danger fw-bold fs-5 me-2">AB+</button>
+                    </div>
+                    <div><button type="button" onclick="selectBloodGroup('AB-')"
+                            class="btn btn-light border border-1 border-secondary-subtle text-danger fw-bold fs-5 me-2">AB-</button>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-secondary ms-5 mt-5 d-inline btn-lg rounded-pill col-sm-6">Confirm</button>
+
+            </form>
+
+            <div class="col-6">
+                <img src="images/photo_2024-02-25_21-30-24.jpg" alt="" class="w-75 ">
+            </div>
+
+        </div>
+    </section>
+
+  <script src="js/findblood.js"></script>
+
+</body>
+
+</html>

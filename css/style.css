@@ -1,0 +1,118 @@
+body
+{
+   margin: 0;
+   background-color: #fff1f1;
+   box-sizing: border-box;
+}
+.left-div
+{  
+    background-image: url(../images/photo_2023-11-03_13-15-55.jpg);
+    height: 100vh;
+    background-position:center center ;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.navbar li
+{
+    padding-right: 18px; 
+    padding-left: 18px; 
+}
+.navbar a
+{
+    cursor:pointer;  
+}
+.nav-li
+{
+    display: inline-block;
+    padding-right: 62px;
+    padding-left: 62px;
+}
+.ul-nav
+{
+    display: table;
+   line-height: 80px;
+   display: flex; 
+}
+.donation-section
+{
+    margin-bottom: 30px;
+}
+.heading
+{
+    margin-bottom:70px;
+}
+input
+{
+    width:75%;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+}
+
+.signup
+{
+   padding:5px 30px;
+}
+.signimage
+{
+    width:90%;
+}
+.pointer-cursor
+{
+    cursor: pointer;
+}
+.sign-up-photo
+{
+    width:90%;
+}
+.sign-up-photo
+{
+    width:60%;
+}
+.clearfix
+{
+    clear:both;
+}
+.donatephoto
+{
+    width:68%;
+}
+.beforeAfter::before
+{
+    content:'';
+    width:680px;
+    height:1px;
+    background-color:gray;
+    position: absolute;
+    bottom:85px;
+    right: 50px;
+}
+.beforeAfter::after
+{
+    content:'';
+    width:650px;
+    height:1px;
+    background-color:gray;
+    position: absolute;
+    bottom:85px;
+    left:50px;
+}
+.radioBox
+{
+    right:15px;
+}
+.loginButton
+{
+    left:150px;
+}
+.haveAccount
+{
+    left:170px;
+}
+.signINLink
+{
+    right:600px;
+}
+.ConfirmButton
+{
+    left:290px;
+}
